@@ -1,12 +1,13 @@
 //im not sure who helped me. just mr smith i think
 int bx=0;
-int xy=(int)(Math.random()*490);
+int xy;
 int fx=0;
 int fy=0;
 void setup() {
   size(500, 500);
   background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   //radom background color
+  xy=(int)(Math.random()*490);
 }
 void draw() {
   while (fx<400) {
